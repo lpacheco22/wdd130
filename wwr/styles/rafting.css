@@ -26,6 +26,7 @@ body{
 header, main, footer{
     width: 840px;
     margin: 0 auto;
+    
 }
 
 h1, h2{
@@ -34,8 +35,8 @@ h1, h2{
 }
 
 nav, p, section, article{
-    margin: 16px;
-    padding: 8px;
+    margin: 6px;
+    padding: 18px;
 }
 
 .socialmedia a {
