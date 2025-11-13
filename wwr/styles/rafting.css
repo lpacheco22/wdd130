@@ -15,7 +15,7 @@
 
 header{
     background-color: var(--primary-color);
-    color: var(--accent2-color);
+    color: var(--secondary-color);
 }
 
 body{
@@ -31,7 +31,7 @@ header, main, footer{
 
 h1, h2{
     font-family: var(--heading-font);
-    color: var(--secondary-color)
+    color: var(--primary-color)
 }
 
 nav, p, section, article{
