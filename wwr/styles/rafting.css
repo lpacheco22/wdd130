@@ -8,14 +8,14 @@
     --secondary-color: #f4a261; /*warm sand*/
     --accent1-color: #264653; /*dark slate blue*/
     --accent2-color: #e9c46a; /*light golden yellow*/
-    --heading-font:"Times New Roman", "Georgia", serif; 
+    --heading-font:Times New Roman, Georgia, serif; 
     --body-font: Arial, Helvetica, sans-serif;
 
 }
 
 header{
-    background-color: var(--primary-color);
-    color: var(--accent2-color);
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
 }
 
 body{
@@ -23,15 +23,19 @@ body{
     color: var(--accent1-color)
 }
 
-header, main, footer{
+header, footer{
     width: 840px;
     margin: 0 auto;
     
 }
 
+main{
+    color: var(--accent2-color);
+}
+
 h1, h2{
     font-family: var(--heading-font);
-    color: var(--primary-color)
+    color: var(--secondary-color)
 }
 
 nav, p, section, article{
