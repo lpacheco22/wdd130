@@ -14,8 +14,8 @@
 }
 
 header{
-    background-color: var(--accent2-color);
-    color: var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
 }
 
 body{
@@ -23,14 +23,10 @@ body{
     color: var(--accent1-color)
 }
 
-header, footer{
+header, main, footer{
     width: 840px;
     margin: 0 auto;
     
-}
-
-main{
-    color: var(--accent2-color);
 }
 
 h1, h2{
