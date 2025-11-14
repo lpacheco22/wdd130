@@ -19,7 +19,7 @@ main {
   
 
 header{
-    background-color: var(--primary-color);
+    background-color: var(--accent2-color);
     color: var(--secondary-color);
 }
 
@@ -36,7 +36,7 @@ header, main, footer{
 
 h1, h2{
     font-family: var(--heading-font);
-    color: var(--accent2-color);
+    color: var(--primary-color);
    
     
 }
