@@ -4,10 +4,10 @@
     box-sizing: border-box;
 }
 :root{
-    --primary-color: #055a05; /*forest green*/
-    --secondary-color: #eee; /*warm sand*/
-    --accent1-color: #264653; /*dark slate blue*/
-    --accent2-color: #2e3c5c; /*light golden yellow*/
+    --primary-color: #053f5a; /*forest green*/
+    --secondary-color: #f3eeee; /*warm sand*/
+    --accent1-color: #0c0b57; /*dark slate blue*/
+    --accent2-color: #050d1f; /*light golden yellow*/
     --heading-font:Times New Roman, Georgia, serif; 
     --body-font: Arial, Helvetica, sans-serif;
 
@@ -85,7 +85,7 @@ h1{
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #fff; /* white text*/
+    color: #eee; /* white text*/
 }
 
 article {
