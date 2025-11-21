@@ -19,8 +19,25 @@ main {
   
 
 header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: var(--accent2-color);
     color: var(--secondary-color);
+    padding: 1rem 2rem;
+}
+
+header img{
+    height: 60px;
+    width: auto;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    
 }
 
 body{
@@ -86,3 +103,49 @@ article {
         float: right;
         width: 125px ;
     }
+
+.main-header {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: white;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-right: 1rem;
+}
+
+.main-nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.main-nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-links li a{
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+}
