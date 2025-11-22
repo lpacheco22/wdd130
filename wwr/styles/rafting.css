@@ -67,11 +67,11 @@ nav, p, section, article{
     text-decoration: none;
 }
 
-.h1{ 
+.hero{ 
     position: relative;
 }
 
-    .hero img{ 
+.hero img{ 
     display: block;
     width: 10%;
     height: auto;
@@ -90,13 +90,13 @@ h1{
 
 article {
         position: absolute;
-        top: 50px; /* 50px from the top of the container */
-        left: 20px; /* 20px from the left of the container */
+        top: 50px; /
+        left: 20px; 
         width: 300px;
         background-color: lightblue;
         padding: 15px;
         border: 1px solid blue;
-        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Example style */
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
     }
 
     .hero article img{
@@ -137,7 +137,7 @@ article {
 
 .main-nav a:hover{
     color: #000;
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid;
 }
 
 .nav-links li a{
