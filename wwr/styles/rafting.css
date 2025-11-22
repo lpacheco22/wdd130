@@ -6,7 +6,7 @@
 :root{
     --primary-color: #053f5a; /*forest green*/
     --secondary-color: #f3eeee; /*warm sand*/
-    --accent1-color: #0c0b57; /*dark slate blue*/
+    --accent1-color: #0a0942; /*dark slate blue*/
     --accent2-color: #050d1f; /*light golden yellow*/
     --heading-font:Times New Roman, Georgia, serif; 
     --body-font: Arial, Helvetica, sans-serif;
@@ -85,12 +85,12 @@ h1{
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #eee; /* white text*/
+    color: white; 
 }
 
 article {
         position: absolute;
-        top: 50px; /
+        top: 50px; 
         left: 20px; 
         width: 300px;
         background-color: lightblue;
@@ -105,7 +105,7 @@ article {
     }
 
 
-.site-header .logo {
+.site-header.logo {
     font-size: 1.5rem;
     font-weight: bold;
     padding-right: 1rem;
@@ -133,11 +133,6 @@ article {
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-
-.main-nav a:hover{
-    color: #000;
-    border-bottom: 2px solid;
 }
 
 .nav-links li a{
