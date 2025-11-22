@@ -18,7 +18,7 @@ main {
   margin: 1rem auto;}
   
 
-header{
+.site-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -67,11 +67,11 @@ nav, p, section, article{
     text-decoration: none;
 }
 
-.hero{ 
+.h1{ 
     position: relative;
 }
 
-.hero img{ 
+    .hero img{ 
     display: block;
     width: 10%;
     height: auto;
@@ -104,16 +104,8 @@ article {
         width: 125px ;
     }
 
-.main-header {
-    display: grid;
-    grid-template-columns: max-content 1fr;
-    align-items: center;
-    padding: 0.5rem 1rem;
-    background-color: #333;
-    color: white;
-}
 
-.logo {
+.site-header .logo {
     font-size: 1.5rem;
     font-weight: bold;
     padding-right: 1rem;
@@ -143,9 +135,33 @@ article {
     align-items: center;
 }
 
+.main-nav a:hover{
+    color: #000;
+    border-bottom: 2px solid #000;
+}
+
 .nav-links li a{
     color: white;
     padding: 14px 16px;
     text-decoration: none;
     display: block;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  flex-wrap: wrap; 
+}
+
+.social-icons {
+  display: flex;
+  margin-left: auto; 
+  align-items: center;
+}
+
+.social-icons img {
+   margin-left: 10px;
+  height: 24px; 
+  width: auto;
 }
