@@ -75,7 +75,9 @@ button {
   border-radius: .5rem;
   padding: .5rem;
   font-size: 1rem;
-  
+  width: 100px;
+  height: 35px;
+    
 }
 
 button:hover {
@@ -99,9 +101,11 @@ footer {
 .column1 {
   grid-template-columns: 3fr 1fr;
   margin: .5rem 0;
+  padding: 0;
 }
 
 .column2 {
   grid-template-columns: 1fr 2fr;
   margin: 1rem 0;
+  padding: 0;
 }
