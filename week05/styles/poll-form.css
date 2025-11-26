@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    color: #333;
+    background: white;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1em;
+    color: black;
+    text-align: center;
+}
+
+form {
+  width: 350px;
+  margin: 0 auto;
+  padding: .5rem;
+  border: 1.5px solid rgb(0 0 0 / 0.1);
+  border-radius: 1.5rem;
+  background-color: whitesmoke;
+  display: grid;
+}
+
+fieldset {
+  display: grid;
+  grid-gap: .5rem;
+  margin: 1rem;
+  border: 1px solid rgb(0 0 0 / 0.2);
+  padding: 1rem;
+}
+
+legend {
+  padding: .5rem;
+  color: blue;
+  font-size: 1.3em;
+}
+
+label, input, button, select, textarea {
+  font-family: Roboto, Arial, sans-serif;
+}
+
+label {
+  text-align: start;
+  padding-right: 0.5rem;
+}
+
+input, select, textarea {
+  padding: .5rem;
+  font-size: 1rem;
+}
+
+input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+  vertical-align: text-top;
+}
+
+button {
+  margin: 3rem;
+  background-color: blue;
+  color: #fff;
+  border: none;
+  border-radius: .5rem;
+  padding: .5rem;
+  font-size: 1rem;
+  
+}
+
+button:hover {
+  background-color: #777;
+}
+
+footer {
+  margin: 1rem auto 0;
+  width: 450px;
+  text-align: start;
+  font-size: 1em;
+  color: #777;
+  border-top: 1px solid #ccc;
+}
+
+.form-item {
+  display: grid;
+  align-items: center;
+}
+
+.column1 {
+  grid-template-columns: 3fr 1fr;
+  margin: .5rem 0;
+}
+
+.column2 {
+  grid-template-columns: 1fr 2fr;
+  margin: 1rem 0;
+}
