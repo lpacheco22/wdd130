@@ -163,6 +163,7 @@ article {
 }
 
 iframe{
-    border:auto;
+    margin: 1rem;
+    border: aliceblue;
 }
 
