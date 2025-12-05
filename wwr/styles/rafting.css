@@ -58,10 +58,12 @@ h1, h2{
     
 }
 
-nav, p, section, article{
+nav, p, article{
     margin: 6px;
     padding: 18px;
 }
+
+
 
 .socialmedia a {
     text-decoration: none;
@@ -69,6 +71,50 @@ nav, p, section, article{
 
 .hero{ 
     position: relative;
+}
+
+.hero2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: lightblue;
+    height: 200px;
+
+}
+
+.hero3 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: lightblue;
+    height: 10px;
+
+}
+
+
+.hero2 figure{
+    flex: 1 1 18%;
+    margin-left: 15px;
+    text-align: center;
+
+}
+
+.hero2 figure figcaption{
+    text-align: center;
+}
+
+.hero2 h2{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.hero2 figure img{
+    height: 100px;
+    width: 100px;
 }
 
 .hero img{ 
@@ -88,20 +134,28 @@ h1{
     color: white; 
 }
 
-article {
-        position: absolute;
-        top: 50px; 
-        left: 20px; 
-        width: 300px;
+.hero article {
+        
+        top: 315px; 
+        right: 0px;
+        width: 830px;
         background-color: lightblue;
         padding: 15px;
         border: 1px solid blue;
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
     }
 
+.heroic img {
+    float: center;
+    width: 840px;
+
+}
+    
+
     .hero article img{
         float: right;
-        width: 125px ;
+        width: 120px ;
+        height: 150px;
     }
 
 
@@ -189,3 +243,28 @@ tfoot tr {
     font-weight: 700;
 }
 
+input, textarea {
+    padding: 0.25rem;
+    width: 350px;
+    
+}
+
+button{
+    padding: auto;
+    height: 25px;
+}
+
+checkbox{
+    margin: 1px;
+    text-align: center;
+    right: 1px;
+    
+}
+
+label {
+    cursor: default;
+}
+.item{
+    border: none;
+    text-align: ;
+}
